@@ -54,7 +54,7 @@ function AddOrUpdate() {
               {greeting}
             </h1>
           </div>
-          <div className="min-w-20 lg:hidden bg-blue-400 w-fit min-h-20 px-2  pb-3 font-medium rounded-lg mr-10 mt-3">
+          <div className="min-w-30 lg:hidden bg-blue-400 w-fit min-h-20 px-2  pb-3 font-medium rounded-lg mr-10 mt-3">
             <div className=" flex-none rounded-t lg:rounded-t-none lg:rounded-l text-center shadow-lg">
               <div className="block rounded-xl overflow-hidden text-center">
                 <div className="bg-blue text-white py-1">{month}</div>
@@ -72,7 +72,8 @@ function AddOrUpdate() {
         </div>
 
         <div className="w-[80%]">{Mode ? <UpdateTask /> : <AddTask />} </div>
-        <div className="min-w-20 ml-1 max-lg:hidden bg-blue-400 w-fit min-h-20 px-2  pb-3 font-medium rounded-lg mr-10 mt-3">
+
+        <div className="min-w-30 ml-1 max-lg:hidden bg-blue-400 w-fit min-h-20 px-2  pb-3 font-medium rounded-lg mr-10 mt-3">
           <div className=" flex-none rounded-t lg:rounded-t-none lg:rounded-l text-center shadow-lg">
             <div className="block rounded-xl overflow-hidden text-center">
               <div className="bg-blue text-white py-1">{month}</div>
